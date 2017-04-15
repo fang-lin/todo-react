@@ -65,12 +65,11 @@ module.exports = function (config) {
             'karma-chrome-launcher',
             'karma-phantomjs-launcher',
             'karma-coverage-istanbul-reporter'
-            // 'karma-coverage'
         ],
 
         reporters: ['mocha', 'coverage-istanbul'],
         coverageIstanbulReporter: {
-            reports: ['html', 'lcovonly', 'text-summary'],
+            reports: ['html', 'text-summary'],
             dir: 'coverage',
             fixWebpackSourcePaths: true,
             skipFilesWithNoCoverage: true,
@@ -78,7 +77,6 @@ module.exports = function (config) {
                 html: {
                     subdir: 'html'
                 }
-
             }, thresholds: {
                 statements: 80,
                 lines: 80,

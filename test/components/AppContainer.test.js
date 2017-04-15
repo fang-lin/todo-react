@@ -10,6 +10,8 @@ import NumOfItemsLeft from '../../app/components/NumOfItemsLeft';
 import AddTodoInput from '../../app/components/AddTodoInput';
 import TodosList from '../../app/components/TodosList';
 
+// Step 1
+
 describe('AppContainer', () => {
     let props;
 

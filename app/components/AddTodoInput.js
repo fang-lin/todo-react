@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {trim} from 'lodash';
 
+// Step 2
 export default class AddTodoInput extends Component {
 
     constructor(props) {

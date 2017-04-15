@@ -5,6 +5,7 @@ import td from 'testdouble';
 
 import AddTodoInput from '../../app/components/AddTodoInput';
 
+// Step 2
 describe('AddTodoInput', () => {
     let props;
 
